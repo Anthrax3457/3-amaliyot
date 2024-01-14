@@ -1,0 +1,238 @@
+.contact__section {
+  width: 100%;
+  padding: 130px 5% !important;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url('../../assets//images//contact-bg.jpg');
+}
+
+.contact__container {
+  height: 650px;
+  border-radius: 40px;
+  padding: 10% !important;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background: #fff;
+}
+
+.contact__texts {
+  margin-top: -0px;
+  padding: 0px 30px;
+}
+
+.contact__name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #33ccc5;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.contact__text {
+  font-size: 30px;
+  text-transform: capitalize;
+  color: #2a2a2a;
+  font-weight: 800;
+  position: relative;
+  z-index: 2;
+  line-height: 45px;
+}
+
+.contact__content {
+  display: grid;
+  justify-content: center;
+}
+
+.input__container {
+  margin-top: 50px;
+}
+
+.inputs {}
+
+.input {
+  width: 250px;
+  height: 46px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 2px solid #e9e6e6f9;
+  outline: none;
+  font-size: 15px;
+  font-weight: 300;
+  color: #2a2a2a;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+}
+
+.contact__textarea {
+  min-width: 100%;
+  max-width: 100%;
+  max-height: 180px;
+  min-height: 140px;
+  height: 140px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 2px solid #e9e6e6f9;
+  outline: none;
+  font-size: 15px;
+  font-weight: 300;
+  color: #2a2a2a;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+.contact__btn {
+  display: inline-block;
+  background-color: #33ccc5;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 20px;
+  text-transform: capitalize;
+  padding: 12px 25px;
+  border-radius: 23px;
+  letter-spacing: 0.25px;
+  border-bottom: 2px solid #4771cb !important;
+  transition: all 0.3s;
+  outline: none;
+  border: none;
+}
+
+.contact__card-content {
+  margin-top: 50px;
+  border-radius: 2px;
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+  border: 2px solid #e9e6e6f9;
+  padding: 40px 30px;
+}
+
+.contact__card {
+  gap: 10px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact__card-text {
+  font-size: 15px;
+  color: #afafaf;
+  transition: all 0.5s;
+}
+
+@media screen and (min-width: 320px) {
+  .contact__container{
+    padding: 10px;
+    height: 100%;
+  }
+}
+@media screen and (min-width: 375px) {
+  .input {
+    width: 100%;
+  }
+
+  .contact__container {
+    /* padding: 15% !important; */
+    height: 100%;
+    padding: 10% !important;
+  }
+
+  .contact__texts {
+    padding: 0% 5% !important;
+  }
+}
+
+@media screen and (min-width: 495px) {
+  .contact__texts {
+    padding: 0% 0% !important;
+  }
+}
+
+@media screen and (min-width: 605px) {
+  .contact__section {
+    display: grid;
+    justify-content: center;
+  }
+
+  .contact__container {
+    padding: 10% !important;
+    height: 100% !important;
+    width: 550px;
+  }
+}
+
+@media screen and (min-width: 765px) {
+  .contact__section {
+    display: grid;
+    justify-content: center;
+  }
+
+  .contact__text {
+    margin: 0px 3%;
+  }
+
+  .contact__container {
+    height: 100%;
+    width: 680px;
+    padding: 60px 10% !important;
+  }
+
+  input {
+    width: 580px !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contact__container {
+    height: 100%;
+    width: 900px;
+  }
+
+  .contact__content {
+    display: flex;
+    gap: 20px;
+  }
+
+  .contact__texts {
+    padding: 0px 27% !important;
+  }
+
+  .inputs {
+    display: flex;
+    gap: 20px;
+  }
+
+  input {
+    width: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1204px) {
+  .contact__container {
+    height: 100%;
+    width: 1000px;
+  }
+
+  input {
+    width: 250px !important;
+  }
+}
+
+@media screen and (min-width: 1404px) {
+  .contact__container {
+    height: 100%;
+    width: 1330px;
+  }
+
+  input {
+    width: 400px !important;
+  }
+
+  .contact__card-content {
+    width: 250px;
+  }
+}
