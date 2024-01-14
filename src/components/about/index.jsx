@@ -18,7 +18,7 @@ const About = () => {
             Consult Your Website <span className="text-[#088ec3]">With Us</span>
           </p>
         </div>
-        <div className="about__texts-contaniner sm:mt-[30px] mt-[60px] ">
+        <div className="about__texts-contaniner sm:mt-[30px] ">
           <div className="about__text-content">
             <p className="about__number">750+</p>
             <p className="about__text">Projects Finished</p>

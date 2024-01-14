@@ -70,6 +70,14 @@
   margin-top: 50px;
 }
 }
+@media screen and (min-width: 400px) {
+  .about__image{
+    width: 350px;
+  }
+  .about__items{
+    margin-top: 50px;
+  }
+  }
 @media screen and (min-width: 580px) {
   .about__texts-contaniner {
     display: flex;

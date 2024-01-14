@@ -109,15 +109,18 @@
 
 @media screen and (min-width:425px) {
     .services__text {
-        width: 400px;
+        width: 350px;
     }
 
     .services__content {
         display: grid;
         justify-content: center;
     }
-
+.services__data{
+    gap: 0px;
+}
     .services__data-content {
+        padding: 30px 30px;
         margin-top: 30px;
 
     }

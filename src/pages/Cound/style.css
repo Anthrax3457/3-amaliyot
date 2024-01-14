@@ -1,6 +1,5 @@
 .chart__container {
   padding: 30px;
-  margin-top: -100px;
 }
 
 .chart__content {
@@ -33,6 +32,15 @@
     grid-template-columns: auto;
   }
 }
+@media screen and (min-width:400px) {
+  .chart__container {
+    padding: 50px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+  }
+}
+
 
 @media screen and (min-width:549px) {
   .chart__container {
@@ -53,6 +61,18 @@
 
 @media screen and (min-width:900px) {
   .chart__container {
+    /* margin-top: -50px; */
+    padding: 50px;
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+  }
+}
+
+@media screen and (min-width:1020px) {
+  .chart__container {
+    margin-top: -20px;
     padding: 50px;
     display: grid;
     gap: 20px;
@@ -64,6 +84,8 @@
 @media screen and (min-width:1200px) {
 
   .chart__container {
+
+    margin-top: -100px;
     padding: 50px;
     display: grid;
     gap: 20px;
