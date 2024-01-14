@@ -119,7 +119,10 @@ export default function Portfolio() {
           loop={true}
           breakpoints={{
             360: {
-              slidesPerView:3.5,
+              slidesPerView:3.3,
+            },
+            400: {
+              slidesPerView:3,
             },
             500: {
               slidesPerView:3,
@@ -139,12 +142,11 @@ export default function Portfolio() {
             1000: {
               slidesPerView:3.5,
             },
-            1024: {
+            1014: {
               slidesPerView:3.3,
             },
-          
             1024: {
-              slidesPerView:4.5,
+              slidesPerView:4.3,
             },
           
            

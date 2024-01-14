@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const About = () => {
   return (
   <div  className="mt-[100px]">
-      <div  id="about" className="about__container mt-[150px]">
+      <div  id="about" className="about__container">
       <div  data-aos="fade-right"className="about__images-content grid justify-center ice">
         <img className="about__image " src={AboutImg} alt="" />
       </div>

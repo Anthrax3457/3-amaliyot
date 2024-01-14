@@ -294,6 +294,9 @@
 }
 
 @media screen and (min-width:1200px) {
+    .content {
+        margin-top: -130px;
+    }
     .card__container {
         display: flex;
         justify-content: center;
@@ -308,6 +311,9 @@
 }
 
 @media screen and (min-width:1400px) {
+    .content {
+        margin-top: -200px;
+    }
     .card__container {
         display: flex;
         justify-content: center;

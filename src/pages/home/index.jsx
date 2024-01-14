@@ -11,7 +11,7 @@ import Portfolio from "../../components/portfolio";
 // import Head from "../../components/head";
 
 // react-scroll
-import { Link, animateScroll as scroll } from "react-scroll";
+// import { Link, animateScroll as scroll } from "react-scroll";
 import Head from "../../components/head/index.jsx";
 
 const Home = () => {
