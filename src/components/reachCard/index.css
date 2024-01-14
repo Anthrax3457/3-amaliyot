@@ -275,7 +275,7 @@
     }
 
     .card__content {
-        padding: 60px 0px;
+        /* padding: 60px 0px; */
     }
 
     .card__container {
@@ -297,6 +297,7 @@
     .content {
         margin-top: -130px;
     }
+
     .card__container {
         display: flex;
         justify-content: center;
@@ -310,19 +311,23 @@
 
 }
 
-@media screen and (min-width:1400px) {
+@media screen and (min-width:1400px) {  
     .content {
-        margin-top: -200px;
+        margin-top: -130px;
     }
+
     .card__container {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 1300px;
+        margin-top: -130px;
+        height: 365px;
     }
+ 
 
     .cound__bg {
+        height: 100%;
         width: 1300px;
     }
-
 }

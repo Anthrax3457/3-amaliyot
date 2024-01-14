@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router";
 import Home from "../pages/home";
-import Head from "../components/head/index";
+// import Head from "../components/head/index";
 import Card from "../components/reachCard";
 
 const Router = () => {

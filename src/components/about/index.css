@@ -206,3 +206,23 @@
     width: 550px;
   }
 }
+@media screen and (min-width: 1300px) {
+  .about {
+    margin-top: 200px;
+    /* padding-right: 45%; */
+    width: 636px;
+  }
+  .about__title{
+    font-size: 30px;
+  }
+  .about__container{
+    margin-top: -0px;
+  }
+  .about__texts {
+    font-size: 15px;
+    width: 600px;
+  }
+  .about__image{
+    /* width: 650px; */
+  }
+}

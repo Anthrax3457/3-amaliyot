@@ -58,7 +58,7 @@ const Card = () => {
       <section id="features"
         className="card__section mt-[100px]"
       >
-        <div className="cound__bg grid min-[320px]:px-[7%] justify-center  bg-[#f5f5f5] h-[700px] rounded-[55px]">
+        <div className="cound__bg grid min-[320px]:px-[7%] justify-center  bg-[#f5f5f5]  rounded-[55px]">
           <div className="grid justify-center">
             <div className="card__container bg-[#fff] grid justify-center items-center shadow-lg rounded-[50px] shadow-[#f3f3f3] ">
               {data.map((item, index) => {
