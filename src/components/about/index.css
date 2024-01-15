@@ -71,6 +71,9 @@
 }
 }
 @media screen and (min-width: 400px) {
+  .about__texts-contaniner {
+margin-top: 50px;
+  }
   .about__image{
     width: 350px;
   }

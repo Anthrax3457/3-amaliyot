@@ -13,7 +13,11 @@ import Cound from "../../pages/Cound/Cound";
 const Card = () => {
   const data = [
     {
+
       number: "01",
+      style: {
+        borderTop: '3px solid #9d9a9a',
+      },
       duration: 600,
       img: reachNum1,
       black: reachIcon11,
@@ -64,16 +68,18 @@ const Card = () => {
               {data.map((item, index) => {
                 return (
                   <div data-aos="fade-up"
-                    data-aos-duration={item.duration} key={index} className="relative content -mt-[130px]">
-                    <div className="grid justify-center">
+                    data-aos-duration={item.duration} key={index} className={`relative content  -mt-[130px] `}>
+                    <div className="grid justify-center" >
                       <p className="card__number ml-[-25px] mt-[90px]">
                         <span className="absolute font-bold mt-3">{item.number}</span>
                       </p>
                       <img className="card__img" src={item.img} alt="" />
                     </div>
-                    <div className="card">
+                    <div className={`card`}>
                       <div className="cards">
-                        <div className="card__content">
+                        <div className='card__content rounded-[50px]'
+                        // style={item?.style}
+                        >
                           <div className="grid justify-center">
                             <div className="image-container">
                               <img

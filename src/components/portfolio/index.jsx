@@ -148,6 +148,9 @@ export default function Portfolio() {
             1024: {
               slidesPerView:4.3,
             },
+            1324: {
+              slidesPerView:4.5,
+            },
           
            
           }}
